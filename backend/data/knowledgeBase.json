@@ -1,0 +1,132 @@
+{
+  "profil_klinik": {
+    "nama": "Klinik Sehat Sentosa",
+    "alamat": "Jl. Kesehatan Raya No. 45, Yogyakarta, Daerah Istimewa Yogyakarta",
+    "jam_operasional": {
+      "senin_jumat": "07:00 - 20:00",
+      "sabtu": "07:00 - 17:00",
+      "minggu": "08:00 - 14:00 (khusus IGD 24 jam)"
+    },
+    "kontak": {
+      "telepon": "(0274) 123456",
+      "whatsapp": "0812-3456-7890",
+      "email": "info@kliniksehatsentosa.co.id",
+      "instagram": "@kliniksehatsentosa"
+    },
+    "fasilitas": ["Ruang tunggu ber-AC", "Apotek internal", "Laboratorium klinik", "Parkir luas", "IGD 24 jam"]
+  },
+  "layanan_poliklinik": [
+    {
+      "id": "poli-umum",
+      "nama": "Poli Umum",
+      "deskripsi": "Pemeriksaan kesehatan umum, keluhan ringan hingga sedang, surat rujukan, dan medical check up dasar.",
+      "harga_konsultasi": "Rp 50.000"
+    },
+    {
+      "id": "poli-gigi",
+      "nama": "Poli Gigi",
+      "deskripsi": "Perawatan gigi dan mulut, mulai dari scaling, tambal gigi, cabut gigi, hingga konsultasi behel.",
+      "harga_konsultasi": "Rp 75.000"
+    },
+    {
+      "id": "poli-anak",
+      "nama": "Poli Anak",
+      "deskripsi": "Pemeriksaan tumbuh kembang anak, imunisasi, dan penanganan penyakit anak.",
+      "harga_konsultasi": "Rp 60.000"
+    },
+    {
+      "id": "poli-kandungan",
+      "nama": "Poli Kandungan (Spesialis Obgyn)",
+      "deskripsi": "Pemeriksaan kehamilan, USG, KB, dan kesehatan reproduksi wanita.",
+      "harga_konsultasi": "Rp 150.000"
+    },
+    {
+      "id": "poli-penyakit-dalam",
+      "nama": "Poli Penyakit Dalam (Spesialis)",
+      "deskripsi": "Penanganan penyakit dalam seperti diabetes, hipertensi, dan gangguan pencernaan.",
+      "harga_konsultasi": "Rp 150.000"
+    },
+    {
+      "id": "poli-kulit",
+      "nama": "Poli Kulit & Kelamin (Spesialis)",
+      "deskripsi": "Konsultasi masalah kulit, alergi, dan perawatan estetik dasar.",
+      "harga_konsultasi": "Rp 130.000"
+    }
+  ],
+  "jadwal_dokter": [
+    {
+      "nama": "dr. Andi Prasetyo",
+      "spesialisasi": "Poli Umum",
+      "hari_praktik": ["Senin", "Selasa", "Rabu", "Jumat"],
+      "jam_praktik": "08:00 - 14:00"
+    },
+    {
+      "nama": "drg. Sinta Wulandari",
+      "spesialisasi": "Poli Gigi",
+      "hari_praktik": ["Senin", "Rabu", "Kamis", "Sabtu"],
+      "jam_praktik": "09:00 - 15:00"
+    },
+    {
+      "nama": "dr. Budi Santoso, Sp.A",
+      "spesialisasi": "Poli Anak",
+      "hari_praktik": ["Selasa", "Kamis", "Sabtu"],
+      "jam_praktik": "10:00 - 16:00"
+    },
+    {
+      "nama": "dr. Ratna Dewi, Sp.OG",
+      "spesialisasi": "Poli Kandungan",
+      "hari_praktik": ["Senin", "Rabu", "Jumat"],
+      "jam_praktik": "13:00 - 18:00"
+    },
+    {
+      "nama": "dr. Hendra Wijaya, Sp.PD",
+      "spesialisasi": "Poli Penyakit Dalam",
+      "hari_praktik": ["Selasa", "Kamis"],
+      "jam_praktik": "14:00 - 19:00"
+    },
+    {
+      "nama": "dr. Maya Kusuma, Sp.KK",
+      "spesialisasi": "Poli Kulit & Kelamin",
+      "hari_praktik": ["Jumat", "Sabtu"],
+      "jam_praktik": "10:00 - 15:00"
+    }
+  ],
+  "prosedur_pendaftaran": {
+    "pasien_baru": [
+      "Datang langsung ke loket pendaftaran atau daftar online via WhatsApp/website.",
+      "Siapkan KTP dan Kartu BPJS/asuransi (jika ada).",
+      "Isi formulir data diri pasien baru di loket.",
+      "Petugas akan membuatkan Kartu Berobat/Rekam Medis baru.",
+      "Menunggu panggilan sesuai nomor antrian dan poli yang dituju."
+    ],
+    "pasien_lama": [
+      "Datang ke loket pendaftaran dan tunjukkan Kartu Berobat.",
+      "Sebutkan keluhan atau poli yang ingin dituju kepada petugas.",
+      "Petugas akan mengambilkan rekam medis dan memberikan nomor antrian.",
+      "Menunggu panggilan sesuai nomor antrian."
+    ],
+    "pendaftaran_online": "Pasien juga dapat melakukan pendaftaran online melalui WhatsApp di 0812-3456-7890 dengan mengirimkan nama, tanggal lahir, dan poli tujuan minimal 1 jam sebelum jam praktik."
+  },
+  "faq": [
+    {
+      "pertanyaan": "Apakah klinik ini menerima BPJS?",
+      "jawaban": "Ya, Klinik Sehat Sentosa merupakan Fasilitas Kesehatan Tingkat Pertama (FKTP) yang bekerja sama dengan BPJS Kesehatan. Pastikan status kepesertaan BPJS aktif dan klinik ini terdaftar sebagai faskes pilihan Anda."
+    },
+    {
+      "pertanyaan": "Metode pembayaran apa saja yang tersedia?",
+      "jawaban": "Kami menerima pembayaran tunai, kartu debit/kredit, QRIS, transfer bank, serta BPJS Kesehatan bagi peserta yang terdaftar."
+    },
+    {
+      "pertanyaan": "Apakah tersedia lahan parkir?",
+      "jawaban": "Tersedia area parkir luas untuk motor dan mobil yang aman dan tanpa biaya tambahan bagi pasien."
+    },
+    {
+      "pertanyaan": "Apakah bisa konsultasi tanpa datang langsung?",
+      "jawaban": "Saat ini konsultasi tatap muka di klinik, namun untuk pertanyaan umum seputar layanan, jadwal dokter, dan prosedur, Anda dapat bertanya langsung ke chatbot AI kami yang aktif 24 jam."
+    },
+    {
+      "pertanyaan": "Apakah ada layanan gawat darurat?",
+      "jawaban": "Ya, Klinik Sehat Sentosa menyediakan layanan IGD yang buka 24 jam setiap hari untuk kondisi darurat."
+    }
+  ]
+}
